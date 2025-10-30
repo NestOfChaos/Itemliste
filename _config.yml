@@ -68,7 +68,8 @@ mods:
   author: true
 
 # Build settings
-theme: jekyll-theme-modernist
+#theme: jekyll-theme-modernist
+remote_theme: pages-themes/modernist@v0.2.0
 markdown: kramdown
 sass:
   style: compressed
