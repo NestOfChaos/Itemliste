@@ -2,9 +2,9 @@
 items_tab: 'Items'
 events_tab: 'Events'
 traits_tab: 'Traits'
-animals_tab: 'Animals'
-weapons_tab: 'Weapons'
-pawn_kinds_tab: 'Pawn Kinds'
+animals_tab: 'Tiere'
+weapons_tab: 'Waffen'
+pawn_kinds_tab: 'Pawn Arten'
 
 # Table headers
 mod_name_header: Mod Name
@@ -47,4 +47,5 @@ from: 'From %s'
 weight: 'Weight'
 limit: 'Limit'
 karma: 'Karma'
+
 bypasses_limit: 'This trait may exceed the trait limit'
