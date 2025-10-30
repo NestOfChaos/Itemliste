@@ -8,35 +8,35 @@ pawn_kinds_tab: 'Pawn Arten'
 
 # Table headers
 mod_name_header: Mod Name
-author_header: Author
+author_header: Autor
 version_header: Version
 command_name_header: Command Name
 user_level_header: User Level
-description_header: Description
-cost_header: Cost
-category_header: Category
+description_header: Beschreibung
+cost_header: Kosten
+category_header: Kategorie
 karma_type_header: Karma Type
-add_cost_header: Add Cost
-remove_cost_header: Remove Cost
+add_cost_header: Kosten hinzufügen
+remove_cost_header: Kosten entfernen
 name_header: Name
 
 # Error messages
 no_commands: 'These are not the commands you are looking for.'
 
 # Redirect messages
-see_traits: 'See prices in the traits section'
-see_kinds: 'See prices in the pawn kinds section'
-see_items: 'See prices in the items section'
+see_traits: 'Preise sind in der Traits Sektion'
+see_kinds: 'Preise sind in der Pawn Arten Sektion'
+see_items: 'Preise sind in der Items Section'
 
 # Search texts
-search_items: 'Search for items...'
-search_traits: 'Search for traits...'
-search_pawn_kinds: 'Search for pawn kinds...'
-search_mods: 'Search for mods...'
-search_commands: 'Search for commands...'
-search_animals: 'Search for animals...'
-search_events: 'Search for events...'
-search_weapons: 'Search for weapons...'
+search_items: 'Suche nach items...'
+search_traits: 'Suche nach traits...'
+search_pawn_kinds: 'Suche nach Pawn Arten...'
+search_mods: 'Suche nach mods...'
+search_commands: 'Suche nach commands...'
+search_animals: 'Suche nach Tieren...'
+search_events: 'Suche nach events...'
+search_weapons: 'Suche nach Waffen...'
 
 # Metadata
 usage: 'Usage: %s'
@@ -49,3 +49,4 @@ limit: 'Limit'
 karma: 'Karma'
 
 bypasses_limit: 'This trait may exceed the trait limit'
+
