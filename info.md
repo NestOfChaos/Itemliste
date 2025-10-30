@@ -36,6 +36,74 @@ store: false
     {%- endif -%}
 {%- endfor -%}
 
+# Willkommen
+
+Willkommen im Stream von [{{ site.data.social.twitch }}]([https://twitch.tv/{{](https://twitch.tv/{{) site.data.social.twitch }}).
+Dieser Stream nutzt die Mod
+[Twitch Toolkit](https://steamcommunity.com/sharedfiles/filedetails/?id=1718525787), um ein interaktives Erlebnis zu ermöglichen.
+Die Mod hat viele Funktionen, die selbst für erfahrene Nutzer zunächst etwas kompliziert wirken können – aber diese kurze Anleitung hilft dir, dich schnell zurechtzufinden.
+
+## Was ist das Twitch Toolkit?
+
+Twitch Toolkit ist eine Mod von **hodlhodl**, die es Zuschauern erlaubt, das Spiel auf verschiedene Arten zu beeinflussen.
+Das auffälligste Merkmal ist der [Shop]({{- "/" | relative_url -}}), in dem du eine Auswahl an vom Streamer kuratierten Dingen kaufen kannst.
+Je nach Kauf erscheinen diese Gegenstände im Spiel oder wirken sich auf das Spielgeschehen aus.
+Eine weitere Möglichkeit zur Interaktion bieten die **Abstimmungen** (Polls) der Mod.
+Die Auswahlmöglichkeiten in diesen Umfragen hängen stark davon ab, welche Optionen in der Mod aktiviert sind.
+
+## Was sind Coins?
+
+Coins sind die Währung der Mod.
+Du kannst dein Guthaben mit dem Befehl `{{ bal }}` anzeigen lassen.
+
+{% if utils == true %}
+Dir wird vielleicht auffallen, dass der Balance-Befehl einige neue Emojis enthält.
+Falls das der Fall ist, hier eine Übersicht der Bedeutungen:
+
+* 💰 steht für die Anzahl der Coins, die du aktuell besitzt.
+* ⚖ steht für dein aktuelles Karma.
+* 📈 zeigt an, wie viele Coins du jedes Mal erhältst, wenn die Mod Coins vergibt.
+* 📉 zeigt an, wie viele Coins du jedes Mal verlierst, wenn die Mod Coins vergibt.
+
+{% endif %}
+
+{%- if lootboxes == true -%}
+Du wirst außerdem eine Nachricht vom Bot über eine **Lootbox** erhalten.
+Du kannst diese Lootbox mit dem Befehl `!openlootbox` öffnen und mit `!lootboxes` prüfen, wie viele du besitzt.
+Du bekommst jeden Tag eine neue Lootbox.
+{%- endif -%}
+
+<br/>
+
+## Was ist Karma?
+
+Karma ist ein System innerhalb der Mod, das begrenzen soll, wie viele **negative Ereignisse** ein Zuschauer gleichzeitig kaufen kann.
+Das System funktioniert, indem es direkt beeinflusst, wie viele Coins ein Zuschauer jedes Mal erhält, wenn die Mod Coins vergibt.
+Das bedeutet: Je niedriger dein Karma ist, desto weniger Coins bekommst du.
+So soll erreicht werden, dass negative Ereignisse zeitlich gestreut auftreten und die Kolonie sich dazwischen erholen kann.
+
+## Wie benutze ich das Twitch Toolkit?
+
+Du kannst das Twitch Toolkit auf verschiedene Arten nutzen – die wichtigste ist über die
+[Befehle]({{- "/commands" | relative_url -}}).
+Der wichtigste Befehl ist `{{- buy -}}`, über den du Dinge aus dem Shop kaufen kannst.
+
+Weitere nützliche Befehle sind `!mypawn`, mit dem du verschiedene Informationen über deinen eigenen Pawn abrufen kannst.
+Wir decken hier nicht jeden Befehl ab – die meisten sind jedoch selbsterklärend oder auf der Seite
+[commands]({{- "/commands" | relative_url -}}) näher beschrieben.
+
+{%- if puppeteer -%} <br/>
+
+## Was ist Puppeteer?
+
+[Puppeteer](https://steamcommunity.com/sharedfiles/filedetails/?id=2057192142) ist eine Mod von **Brrainz**,
+die es Zuschauern ermöglicht, ihre **Pawns direkt zu steuern** und verschiedene Informationen über diese grafisch anzuzeigen.
+Außerdem leitet sie einige Antworten des Twitch Toolkits an ihre eigene Website weiter, um den Chat übersichtlicher zu halten.
+
+Wenn du also bei **Puppeteer** eingeloggt bist und dich wunderst, warum der Bot dir nicht antwortet,
+solltest du zuerst den Reiter **„TT“** auf der Website überprüfen.
+{%- endif -%}
+
 # Welcome
 
 Welcome to [{{ site.data.social.twitch }}](https://twitch.tv/{{ site.data.social.twitch }})'s stream.
