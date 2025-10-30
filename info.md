@@ -80,7 +80,7 @@ Karma ist ein System innerhalb der Mod, das begrenzen soll, wie viele **negative
 Das System funktioniert, indem es direkt beeinflusst, wie viele Coins ein Zuschauer jedes Mal erhält, wenn die Mod Coins vergibt.
 Das bedeutet: Je niedriger dein Karma ist, desto weniger Coins bekommst du.
 So soll erreicht werden, dass negative Ereignisse zeitlich gestreut auftreten und die Kolonie sich dazwischen erholen kann.
-Es soll aber **nicht** dafür sorgen, dass keine **negative Ereignisse** gekauft werden. Diese gehören ja auch zum Spaß dazu.
+Es soll aber **nicht** dafür sorgen, dass keine **negativen Ereignisse** gekauft werden. Diese gehören ja auch zum Spaß dazu.
 Daher bleibt dies dir überlassen. Ich bin dir nicht böse.
 
 ## Wie benutze ich das Twitch Toolkit?
