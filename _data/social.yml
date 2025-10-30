@@ -1,4 +1,4 @@
-of# Icons on the footer
+# Icons on the footer
 rss: false
 email_address:
 behance:
@@ -36,4 +36,5 @@ share:
   linkedin:
   wordpress:
   email: true
+
 
