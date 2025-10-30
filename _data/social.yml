@@ -1,4 +1,4 @@
-# Icons on the footer
+of# Icons on the footer
 rss: false
 email_address:
 behance:
@@ -22,7 +22,7 @@ twitter:
 vimeo:
 wordpress:
 youtube: # Youtube channel token like: UCqECaJ8Gagnn7YCbPEzWH6g
-twitch: sirrandoo
+twitch: nestofchaos
 tiktok:
 
 # Share button options
@@ -36,3 +36,4 @@ share:
   linkedin:
   wordpress:
   email: true
+
