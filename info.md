@@ -88,7 +88,7 @@ Daher bleibt dies dir überlassen. Ich bin dir nicht böse.
 Du kannst das Twitch Toolkit auf verschiedene Arten nutzen – die wichtigste ist über die
 [Befehle]({{- "/commands" | relative_url -}}).
 Der wichtigste Befehl ist `{{- buy -}}`, über den du Dinge aus dem Shop kaufen kannst.
-Mit `{{ buy affe 1 }}` kannst du mir zum Beispiel einen Affen kaufen (Bitte kauf mir keinen Affen xD). 
+Mit `!buy affe 1` kannst du mir zum Beispiel einen Affen kaufen (Bitte kauf mir keinen Affen xD). 
 
 Weitere nützliche Befehle sind `!mypawn`, mit dem du verschiedene Informationen über deinen eigenen Pawn abrufen kannst.
 Wir decken hier nicht jeden Befehl ab – die meisten sind jedoch selbsterklärend oder auf der Seite
